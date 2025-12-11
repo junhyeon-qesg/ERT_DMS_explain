@@ -6,38 +6,30 @@ transition: slide-left
 
 # 스페이스
 
-<div class="grid grid-cols-2 gap-6 mt-8 max-w-5xl mx-auto text-left">
+<div class="mt-8 space-y-4 max-w-3xl mx-auto text-left">
 
-<div v-click class="py-5 px-6 rounded-lg bg-gray-100 dark:bg-gray-800">
-  <h3 class="text-xl font-bold mb-4">스페이스란</h3>
-  <ul class="space-y-3 text-gray-600 dark:text-gray-300">
-    <li class="flex items-start gap-2">
-      <span class="mt-1">•</span>
-      <span>ERT DMS의 데이터 셋을 아우르는 개념</span>
-    </li>
-    <li class="flex items-start gap-2">
-      <span class="mt-1">•</span>
-      <span>1년 단위로 스페이스 생성</span>
-    </li>
-  </ul>
+<div class="flex items-center gap-3 py-4 px-6 rounded-lg bg-gray-100 dark:bg-gray-800">
+  <mdi:folder-multiple-outline class="text-2xl" />
+  <h3 class="text-lg font-bold">스페이스 개념</h3>
 </div>
 
-<div v-click class="py-5 px-6 rounded-lg bg-gray-100 dark:bg-gray-800">
-  <h3 class="text-xl font-bold mb-4">스페이스 하위 항목</h3>
-  <ul class="space-y-3 text-gray-600 dark:text-gray-300">
-    <li class="flex items-start gap-2">
-      <span class="mt-1">•</span>
-      <span>지표 템플릿</span>
-    </li>
-    <li class="flex items-start gap-2">
-      <span class="mt-1">•</span>
-      <span>데이터 시트</span>
-    </li>
-    <li class="flex items-start gap-2">
-      <span class="mt-1">•</span>
-      <span>셀 타입 설정 / 데이터 단위</span>
-    </li>
-  </ul>
+<div class="mt-6 mb-2">
+  <h3 class="text-base font-semibold text-gray-700 dark:text-gray-300">스페이스 하위 항목</h3>
+</div>
+
+<div class="flex ml-4 items-center gap-3 py-4 px-6 rounded-lg bg-gray-100 dark:bg-gray-800">
+  <mdi:file-document-edit-outline class="text-2xl" />
+  <h3 class="text-lg font-bold">지표 템플릿</h3>
+</div>
+
+<div class="flex ml-4 items-center gap-3 py-4 px-6 rounded-lg bg-gray-100 dark:bg-gray-800">
+  <mdi:table-edit class="text-2xl" />
+  <h3 class="text-lg font-bold">데이터 시트</h3>
+</div>
+
+<div class="flex ml-4 items-center gap-3 py-4 px-6 rounded-lg bg-gray-100 dark:bg-gray-800">
+  <mdi:form-select class="text-2xl" />
+  <h3 class="text-lg font-bold">셀 타입 설정 / 데이터 단위</h3>
 </div>
 
 </div>

@@ -1,0 +1,9 @@
+@import '@fontsource/pretendard';
+
+body {
+  font-family: 'Pretendard', sans-serif !important;  
+}
+
+#page-root {
+  font-family: 'Pretendard', sans-serif !important;  
+}

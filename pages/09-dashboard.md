@@ -8,12 +8,14 @@ transition: slide-left
 
 <div class="mt-8 space-y-4 max-w-3xl mx-auto text-left">
 
-<div v-click class="py-4 px-6 rounded-lg bg-gray-100 dark:bg-gray-800">
-  <h3 class="text-lg font-bold">생성한 데이터 시트 확인</h3>
+<div class="flex items-center gap-3 py-4 px-6 rounded-lg bg-gray-100 dark:bg-gray-800">
+  <mdi:file-document-multiple-outline class="text-2xl" />
+  <h3 class="text-lg font-bold">데이터 시트 개요 확인</h3>
 </div>
 
-<div v-click class="py-4 px-6 rounded-lg bg-gray-100 dark:bg-gray-800">
-  <h3 class="text-lg font-bold">데이터 시트별로 제출률, 결재율 확인 가능</h3>
+<div class="flex items-center gap-3 py-4 px-6 rounded-lg bg-gray-100 dark:bg-gray-800">
+  <mdi:chart-line class="text-2xl" />
+  <h3 class="text-lg font-bold">데이터 시트별 제출률, 결재율 확인</h3>
 </div>
 
 </div>

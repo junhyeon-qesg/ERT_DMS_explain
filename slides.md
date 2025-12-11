@@ -9,6 +9,9 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
+colorSchema: dark
+fonts:
+  provider: none
 duration: 30min
 src: ./pages/01-intro.md
 

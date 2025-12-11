@@ -8,6 +8,7 @@
     "export": "slidev export"
   },
   "dependencies": {
+    "@fontsource/pretendard": "^5.2.5",
     "@iconify-json/mdi": "^1.1.0",
     "@slidev/cli": "^52.11.0",
     "@slidev/theme-default": "latest",
